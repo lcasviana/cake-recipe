@@ -1,0 +1,45 @@
+* {
+  color: #212121;
+  font-family: "Lato";
+}
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff3e0;
+  background-image: url(../images/cake.png);
+  background-repeat: repeat;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+*::-webkit-scrollbar {
+  width: 0.25rem;
+  background-color: #321911;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #8b6b61;
+}
+
+ul {
+  list-style: "  ◾  " inside none;
+}
+
+ol {
+  list-style: decimal inside none;
+}
+
+#recipe {
+  max-width: 42rem;
+  box-shadow: 0 0 1rem #725b53;
+}
+
+.color-brown {
+  color: #6a4f4b;
+}
