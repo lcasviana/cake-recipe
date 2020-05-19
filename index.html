@@ -13,7 +13,10 @@
 <body class="h-100 flex flex-column items-center">
   <main id="recipe" class="bg-white h-100 pt5 pb5 pl4 pr4 overflow-x-hidden overflow-y-auto">
     <h1 class="mt0">Receita de <strong class="color-brown">Bolo de Café</strong> 🎂🍰</h1>
-    <h3>Aprenda como fazer um delicioso bolo de café 😋</h3>
+    <h4>Aprenda como fazer um delicioso bolo de café 😋💛</h4>
+    <div class="flex flex-column items-center grow">
+      <img id="cake" src="assets/images/cake.jpg" alt="Bolo de Chocolate">
+    </div>
     <p>
       <em>Se você nunca cozinho um bolo na vida,
         acredite no seu potencial
@@ -47,11 +50,51 @@
     </ol>
     <h3>Cobertura</h3>
     <ol class="pa0">
-      <li>Em uma panela coloque todos os ingredientes. Leve ao fogo sem parar de mecher até ficar cremoso, despeje o creme
+      <li>Em uma panela coloque todos os ingredientes. Leve ao fogo sem parar de mecher até ficar cremoso, despeje o
+        creme
         ainda
         quente em cima do bolo.</li>
     </ol>
+    <hr>
+    <table class="w-100">
+      <thead>
+        <tr>
+          <th colspan="2" class="tc">Tabela Nutricional</th>
+          <th class="tc">% VD (*)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Calorias (valor energético)</td>
+          <td class="tc">246,00 kcal</td>
+          <td class="tc">12,30%</td>
+        </tr>
+        <tr>
+          <td>Carboidratos líquidos</td>
+          <td class="tc">31,98 g</td>
+          <td class="tc">-</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <h4>O que você achou? Deixei seu comentário! 😜👍</h4>
+    <label class="w-100 db" for="name">Nome:</label>
+    <input class="w-100 db" type="text" name="name" id="name">
+    <label class="w-100 db mt3" for="commentary">Comentário:</label>
+    <textarea class="w-100 mb2" rows="3" name="commentary" id="commentary" rows="1"></textarea>
+    <button id="send" class="mb3">Enviar!</button>
+    <hr>
+    <p class="tr">
+      Atividade desenvolvida por <a href="https://github.com/lcasviana" target="blank" alt="GitHub">Lucas Silvestre
+        Viana</a>.
+    </p>
+    <p class="tr">
+      Fonte: <a href="https://gshow.globo.com/receitas-gshow/receitas/bolo-de-cafe-5409b1654d3885238300008e.ghtml"
+        alt="Fonte da Receita" target="blank">gshow.com</a>
+    </p>
   </main>
+
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>
