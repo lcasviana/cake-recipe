@@ -14,6 +14,14 @@ body {
   background-repeat: repeat;
 }
 
+h1, h2 {
+  color: #bf360c;
+}
+
+h3 {
+  color: #321911;
+}
+
 *::-webkit-scrollbar-track {
   background-color: #f1f1f1;
 }
@@ -27,6 +35,19 @@ body {
   background-color: #8b6b61;
 }
 
+*::selection {
+  background: #725b53;
+  color: #ffffff;
+}
+
+li {
+  line-height: 1.5rem;
+}
+
+li:hover {
+  font-weight: bold;
+}
+
 ul {
   list-style: "  ◾  " inside none;
 }
@@ -35,11 +56,57 @@ ol {
   list-style: decimal inside none;
 }
 
+hr {
+  margin-block-start: 3rem;
+  margin-block-end: 3rem;
+}
+
+textarea {
+  resize: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+textarea:focus, input:focus{
+  outline: 2px solid #bf360c;
+}
+
+textarea, input {
+  border: 1px solid #b1b1b1;
+  padding: 0.5rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #b1b1b1;
+  width: 33%;
+  line-height: 1.5rem;
+}
+
 #recipe {
   max-width: 42rem;
   box-shadow: 0 0 1rem #725b53;
 }
 
+#cake {
+  height: 8rem;
+  object-fit: cover;
+  border-radius: 8rem;
+}
+
 .color-brown {
   color: #6a4f4b;
+}
+
+#send {
+  background: #321911;
+  color: #f1f1f1;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
 }
